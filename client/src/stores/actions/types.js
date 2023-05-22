@@ -1,0 +1,13 @@
+export const FETCHCLUB_PENDING = "fetch/pendingFetchClub"
+export const FETCHCLUB_SUCCESS = "fetch/successFetchClub"
+export const FETCHCLUB_REJECT = "fetch/rejectFetchClub"
+export const ADDCLUB_PENDING = "add/pendingAddClub"
+export const ADDCLUB_SUCCESS = "add/successAddClub"
+export const ADDCLUB_REJECT = "add/rejectAddClub"
+
+export const FETCHMATCH_PENDING = "fetch/pendingFetchMatch"
+export const FETCHMATCH_SUCCESS = "fetch/successFetchMatch"
+export const FETCHMATCH_REJECT = "fetch/rejectFetchMatch"
+export const ADDMATCH_PENDING = "fetch/pendingAddMatch"
+export const ADDMATCH_SUCCESS = "fetch/successAddMatch"
+export const ADDMATCH_REJECT = "fetch/rejectAddMatch"
