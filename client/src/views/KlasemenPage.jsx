@@ -27,7 +27,7 @@ export function KlasemenPage(){
                     <h1 className='text-4xl font-light font-serif'>
                         Klasemen Kompetisi
                     </h1>
-                    <Link to="/add-match" type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                    <Link to="/add-match" type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Add Match Score
                     </Link>
                 </div>
@@ -71,7 +71,7 @@ export function KlasemenPage(){
                             {
                                 clubs.map((club, index) => {
                                     return(
-                                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                                         <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                                             {index + 1}
                                         </td>

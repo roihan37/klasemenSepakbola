@@ -1,5 +1,5 @@
 import {
-    createBrowserRouter, redirect
+    createBrowserRouter
 } from "react-router-dom";
 import { AddClubPage } from "../views/AddClubPage.jsx";
 import { AddMatchPage } from "../views/AddMatchPage.jsx";
